@@ -10,23 +10,6 @@ SESSION_CONFIG_DEFAULTS = {
     'doc': "",
 }
 SESSION_CONFIGS = [
-    {
-        'name': 'cheating_entitlement_ret',
-        'display_name': "Cheating_Entitlement_RET",
-        'num_demo_participants': 12,
-        'real_world_currency_per_point': 0.002,
-        'app_sequence': ['M1_dictator',
-                         'M2_die_match_RET',
-                         'M3_die_match_progressive_RET',
-                         'M4_risk_pref',
-                         'M5_number_add1_RET',
-                         'M5_number_add2_RET',
-                         'M5_number_add3_RET',
-                         'M5_number_add4_RET',
-                         'M5_number_add5_RET',
-                         'LastModel_RET'],
-
-    },
      {'name': 'cheating_entitlement_dieroll',
         'display_name': "Cheating_Entitlement_DieRoll",
         'num_demo_participants': 6,
