@@ -46,8 +46,17 @@ REAL_WORLD_CURRENCY_CODE = 'GBP'
 POINTS_CUSTOM_NAME = 'ECUs'
 USE_POINTS = True
 
-ROOMS = []
-
+ROOMS = [
+    {
+        'name': 'le0027',
+        'display_name': 'LE0027 for CESS Lab',
+        'participant_label_file': '_rooms/cess_lab.txt',
+    },
+    {
+        'name': 'live_demo',
+        'display_name': 'Room for live demo (no participant labels)',
+    },
+]
 
 # AUTH_LEVEL:
 # this setting controls which parts of your site are freely accessible,
