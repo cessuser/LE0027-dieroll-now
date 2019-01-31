@@ -13,7 +13,7 @@ SESSION_CONFIGS = [
      {'name': 'cheating_entitlement_dieroll',
         'display_name': "Cheating_Entitlement_DieRoll",
         'num_demo_participants': 6,
-        'real_world_currency_per_point': 0.0033,
+        'real_world_currency_per_point': 0.002,
         'app_sequence': ['M1_dictator',
                          'M2_die_match_dieroll',
                          'M3_die_match_progressive_dieroll',
