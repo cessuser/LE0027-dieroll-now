@@ -58,6 +58,7 @@ class ResultsWaitPage(WaitPage):
     def after_all_players_arrive(self):
         pass
 
+
 class continueWaitPage(WaitPage):
     wait_for_all_groups = True
 
@@ -66,6 +67,7 @@ class continueWaitPage(WaitPage):
 
     def is_displayed(self):
         return self.round_number == 1
+
 
 class Results(Page):
     def vars_for_template(self):
